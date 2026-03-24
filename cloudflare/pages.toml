@@ -1,0 +1,12 @@
+name = "secure-crash-frontend"
+compatibility_date = "2026-03-24"
+
+[build]
+command = "npm run build"
+cwd = "frontend"
+output_dir = ".svelte-kit/cloudflare"
+
+[vars]
+PUBLIC_SUPABASE_URL = "https://YOUR_PROJECT.supabase.co"
+PUBLIC_SUPABASE_ANON_KEY = "YOUR_ANON_KEY"
+PUBLIC_SUPABASE_FUNCTIONS_URL = "https://YOUR_PROJECT.functions.supabase.co"

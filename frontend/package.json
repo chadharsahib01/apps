@@ -1,0 +1,13 @@
+{
+  "name": "secure-crash-frontend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "echo 'lint placeholder'",
+    "build": "echo 'build placeholder'"
+  },
+  "dependencies": {
+    "pixi.js": "^8.9.0",
+    "@supabase/supabase-js": "^2.50.0"
+  }
+}
